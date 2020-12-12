@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <img class="cat" :src="`${$store.state.baseURL}themes/${$store.state.theme}/cat.jpg`" alt="Cat">
+    <img class="cat" :src="`${$store.state.baseURL}themes/${$store.state.theme}/cat.jpg`" alt="Cat" v-if="$store.state.theme">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod voluptatum impedit
       animi obcaecati dolor reprehenderit quam neque temporibus! Maiores nobis obcaecati illum dolorum
       natus labore culpa saepe asperiores quas!</p>

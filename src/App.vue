@@ -31,7 +31,7 @@ export default {
     const theme = localStorage.getItem('theme');
     // Según el tema lo cambiamos
     if (theme) {
-      this.changeTheme(theme);
+      this.cambiarTema(theme);
     }
   },
   methods: {
