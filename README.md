@@ -2,7 +2,7 @@
 
 Ejemplo de como hacer un cambio de tema dinámico con Vue
 
-[![VueJS](https://img.shields.io/badge/VueJs-%20Ready-41B883)](https://vuejs.org/)
+[![VueJS](https://img.shields.io/badge/VueJS-%20Ready-41B883)](https://vuejs.org/)
 
 ## Project setup
 
